@@ -20,7 +20,15 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - What purpose do the `thead` and `tbody` elements serve?
 
+The <thead> and <tbody> elements serve specific purposes in HTML tables to improve organization, semantics, and accessibility
+
+The <thead> element is used to group the header content of the table.
+
+The <tbody> element is used to group the main data rows of the table.
+
 - Give two examples of data that would lend itself well to being displayed in a table.
+
+Employee Information and Product Catalogs
 
 ## Notes
 
