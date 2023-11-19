@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Forms Webpage Exercise</title>
+  </head>
+  <body>
+    <form>
+      <label for="email">
+        Email
+        <br />
+        <input type="email" id="email" name="email" />
+      </label>
+      <br />
+      <label for="coding_question"> Why is coding cool? </label>
+      <br />
+      <select id="coding_question" name="coding_options">
+        <option value="option1" selected>Select an option</option>
+        <option value="option2">Because its interesting</option>
+        <option value="option3">Because its fun</option>
+        <option value="option4">Because its powerful</option>
+      </select>
+      <br />
+      <p>Favorite Language (choose one)</p>
+      <label for="HTML" title="HTML Option">
+        <input type="radio" id="HTML" name="HTML" />
+        HTML
+      </label>
+      <label for="CSS" title="CSS Option">
+        <input type="radio" id="CSS" name="CSS" />
+        CSS
+      </label>
+      <label for="JavaScript" title="JavaScript Option">
+        <input type="radio" id="JavaScript" name="JavaScript" />
+        JavaScript
+      </label>
+      <p>Would you like more information?</p>
+      <label for="sign_up" title="Sign up">
+        <input type="checkbox" id="sign_up" name="Sign up checkbox" />
+        Sign me up!
+      </label>
+      <br />
+      <label for="text_box" title="Text box input">
+        Comments
+        <br />
+        <textarea
+          id="text_box"
+          cols="32"
+          rows="12"
+          name="Text area box"></textarea>
+      </label>
+      <br />
+      <label for="submit_button" title="Submit button">
+        <input type="submit" id="submit" name="submit button" />
+      </label>
+    </form>
+  </body>
+</html>
