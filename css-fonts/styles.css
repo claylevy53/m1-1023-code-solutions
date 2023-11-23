@@ -1,0 +1,22 @@
+h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  letter-spacing: 1px;
+  font-style: oblique;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: 'Familjen Grotesk', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+
+p {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  line-height: 2em;
+}
