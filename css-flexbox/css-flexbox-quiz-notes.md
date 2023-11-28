@@ -14,11 +14,11 @@ The default flex-wrap property value for a flex container is nowrap. This means 
 
 - What axis do the `justify-content` properties work on?
 
-The X axis (Horizontal)
+The X axis (Horizontal) - Main axis
 
 - What axis do the `align-items` properties work on?
 
-The Y axis (Vertical)
+The Y axis (Vertical) - Cross Axis
 
 ## Notes
 
