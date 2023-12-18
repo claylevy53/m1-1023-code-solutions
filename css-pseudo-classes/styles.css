@@ -1,0 +1,28 @@
+.button {
+  padding: 8px 45px;
+  font-size: larger;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+table {
+  border: 0.2rem solid grey;
+  text-align: center;
+}
+
+td {
+  border-style: solid;
+}
+
+th {
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+
+tr:nth-child(odd) {
+  background-color: grey;
+}
