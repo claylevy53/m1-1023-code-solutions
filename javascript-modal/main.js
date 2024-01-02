@@ -1,33 +1,26 @@
 const $button = document.querySelector('.button-style');
+const $modalContainer = document.querySelector('.modal-container');
+const $modalStyles = document.querySelector('.modal-styles');
+const $modalText = document.querySelector('.modal-text');
+const $overlay = document.querySelector('.overlay');
+const $surveyButton = document.querySelector('.survey-button');
+const $row = document.querySelector('.button-row');
 
 $button.addEventListener('click', function (event) {
-  const mainDiv = document.createElement('div');
-  const modal = document.createElement('div');
-  const surveyButton = document.createElement('button');
-  const buttonRow = document.createElement('div');
-  const surveryText = document.createElement('p');
-  const overlay = document.createElement('div');
+  $modalContainer.style.display = 'block';
+  $modalStyles.style.display = 'block';
+  $button.style.display = 'block';
+  $overlay.style.display = 'block';
+  $row.style.display = 'block';
+  $surveyButton.style.display = 'block';
+  $modalText.style.display = 'block';
 
-  surveryText.innerHTML = 'Would you like to take a survey?';
-  surveyButton.innerHTML = 'NO';
-
-  surveyButton.className = 'survey-button';
-  modal.className = 'modal-styles';
-  buttonRow.className = 'button-row';
-  mainDiv.className = 'modal-container';
-  overlay.className = 'overlay';
-
-  mainDiv.appendChild(modal);
-  mainDiv.appendChild(buttonRow);
-  buttonRow.appendChild(surveyButton);
-  modal.appendChild(surveryText);
-  mainDiv.appendChild(overlay);
-
-  const $mainContainer = document.querySelector('.container');
-
-  $mainContainer.appendChild(mainDiv);
-
-  surveyButton.addEventListener('click', function (event) {
-    mainDiv.style.display = 'none';
+  $surveyButton.addEventListener('click', function (event) {
+    $modalContainer.style.display = 'none';
+    $modalStyles.style.display = 'none';
+    $overlay.style.display = 'none';
+    $row.style.display = 'none';
+    $surveyButton.style.display = 'none';
+    $modalText.style.display = 'none';
   });
 });
