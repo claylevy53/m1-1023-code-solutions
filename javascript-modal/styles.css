@@ -1,0 +1,68 @@
+.button-style {
+  position: relative;
+  z-index: 0;
+  background-color: blue;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  border-radius: 10px;
+  height: 80px;
+  width: 400px;
+}
+
+.modal-container {
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+.modal-styles {
+  display: none;
+  font-size: 42px;
+  padding-bottom: 30px;
+  z-index: 3;
+  background-color: white;
+  width: 750px;
+  height: 425px;
+  border-radius: 20px;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.survey-button {
+  display: none;
+  font-size: 30px;
+  position: fixed;
+  bottom: 150px;
+  left: 600px;
+  width: 150px;
+  height: 60px;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+
+.button-row {
+  display: none;
+  z-index: 3;
+}
+
+.modal-text {
+  display: none;
+  z-index: 2;
+  font-weight: 900;
+  position: relative;
+  top: 50px;
+  left: 70px;
+}
