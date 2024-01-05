@@ -1,0 +1,47 @@
+# css-responsive-layout-quiz-notes
+
+## Quiz Questions
+
+After completing this exercise, you should be able to discuss or answer the following questions:
+
+- What is a **breakpoint** in responsive Web design?
+
+breakpoint is a specific screen width at which a website's layout and design changes to accommodate different screen sizes and devices. Breakpoints are a crucial aspect of responsive design because they allow web designers and developers to create websites that adapt and look good on various devices
+
+- What is the advantage of using a percentage (_e.g._ `50%`) width instead of a fixed (_e.g._ `px`) width for a "column" class in a responsive layout?
+
+Using a percentage (%) width for a "column" class in a responsive layout offers flexibility and adaptability, allowing columns to automatically adjust to different screen sizes. This approach prevents horizontal scrollbars, simplifies maintenance, and provides a better user experience, making it a recommended practice in responsive web design. Fixed (px) widths, on the other hand, may lead to issues with content overflow and are less suited for responsive layouts.
+
+
+- If you introduce CSS rules for a smaller `min-width` _after_ the styles for a larger `min-width` in your style sheet, the CSS rules for the **smaller** `min-width` will "win". Why is that?
+
+When you have conflicting rules for the same element, the more specific or more recently defined rule takes precedence in CSS
+
+## Notes
+
+All student notes should be written here.
+
+
+How to write `Code Examples` in markdown
+
+for JS:
+
+```javascript
+const data = "Howdy";
+```
+
+for HTML:
+
+```html
+<div>
+  <p>This is text content</p>
+</div>
+```
+
+for CSS:
+
+```css
+div {
+  width: 100%;
+}
+```
