@@ -42,10 +42,10 @@ section {
   background-color: white;
   cursor: pointer;
   transform: scale(1);
+  transition: transition-duration, 0.3s;
 }
 
 .card:hover {
-  transition-duration: 0.3s;
   transform: scale(1.1);
 }
 
