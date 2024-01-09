@@ -1,6 +1,6 @@
 /* exported todos */
 
-var todos = [];
+let todos = [];
 
 window.addEventListener('beforeunload', function (event) {
   const todosJSON = JSON.stringify(todos);
