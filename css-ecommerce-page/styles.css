@@ -1,0 +1,43 @@
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.image-row {
+  display: flex;
+}
+
+img {
+  width: 70%;
+  height: auto;
+  margin: 50px;
+}
+
+.image-wrapper {
+  flex-basis: calc(100% / 3);
+}
+
+.row {
+  display: flex;
+}
+
+.text-row {
+  margin-left: 50px;
+  flex-basis: calc(100% / 3);
+}
+
+span {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.sub-text {
+  color: grey;
+}
+
+mark {
+  background-color: #fdebd0;
+}
