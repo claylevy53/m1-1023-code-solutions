@@ -6,19 +6,27 @@ header {
   text-align: center;
 }
 
+.image-row {
+  display: flex;
+}
+
+img {
+  width: 70%;
+  height: auto;
+  margin: 50px;
+}
+
 .image-wrapper {
+  flex-basis: calc(100% / 3);
+}
+
+.row {
   display: flex;
 }
 
 .text-row {
-  display: flex;
-}
-
-.image-wrapper img {
-  width: 200px;
-  height: auto;
   margin-left: 50px;
-  margin-right: 50px;
+  flex-basis: calc(100% / 3);
 }
 
 span {
@@ -28,55 +36,6 @@ span {
 
 .sub-text {
   color: grey;
-}
-
-.Reformation {
-  position: relative;
-  left: 670px;
-}
-
-.Louis {
-  position: relative;
-  left: 520px;
-}
-
-.Tiffany {
-  position: relative;
-  left: 340px;
-}
-
-.YSL {
-  position: relative;
-  left: 220px;
-}
-
-.free-people {
-  position: relative;
-  left: 60px;
-}
-
-.price-row {
-  display: flex;
-}
-
-.price-row .YSL {
-  position: relative;
-  left: 249px;
-}
-
-.price-row .Tiffany {
-  position: relative;
-  left: 439px;
-}
-
-.price-row .Louis {
-  position: relative;
-  left: 612px;
-}
-
-.price-row .Reformation {
-  position: relative;
-  left: 812px;
 }
 
 mark {
